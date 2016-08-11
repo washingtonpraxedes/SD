@@ -4,10 +4,6 @@
 
 #include <time.h>
 
-	//terminar de implementar eleicao e o tempo de resposta
-
-	// desenhar um fluxograma
-
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <netinet/in.h>
@@ -59,9 +55,6 @@ void init_client(int id, int ehCoordenador, int tipoMensagem){
 				
 					close(sock);
 
-				}
-				else{
-					//terminar de implementar eleicao e o tempo de resposta
 				}
 	
 			}
